@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/bookinh.html" }
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
   ]
 }
